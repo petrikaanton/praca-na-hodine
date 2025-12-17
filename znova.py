@@ -8,7 +8,7 @@ def generuj(n:int) -> list:
 moj_zoznam=generuj(10)
 print(moj_zoznam)
 
-for i in range(len(moj_zoznam)-1,1,-1):
+for i in range(len(moj_zoznam)-1,0,-1):
     moj_max=moj_zoznam[0]
     moj_index=0
     for j in range(1,i+1):
